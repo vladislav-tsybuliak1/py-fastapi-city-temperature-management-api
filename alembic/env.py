@@ -6,6 +6,7 @@ from alembic import context
 
 from database import Base
 from cities.models import City
+from temperatures.models import Temperature
 
 
 # this is the Alembic Config object, which provides
