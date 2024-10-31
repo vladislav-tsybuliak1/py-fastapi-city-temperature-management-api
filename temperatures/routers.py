@@ -2,7 +2,6 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import List, Optional
 from dependencies import get_db
-from temperatures.models import Temperature
 from temperatures.schemas import TemperatureResponse
 from temperatures.crud import (
     get_temperatures,

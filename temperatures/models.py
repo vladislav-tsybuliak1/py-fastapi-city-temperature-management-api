@@ -12,4 +12,3 @@ class Temperature(Base):
     temperature = Column(Float, nullable=False)
 
     city = relationship("City", back_populates="temperatures")
-
